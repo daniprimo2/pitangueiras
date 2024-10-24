@@ -1,0 +1,261 @@
+.principal
+    display: flex
+    width: 100%
+    height: 45rem
+    padding: 1vh
+    overflow: hidden
+    .banner-maior
+        display: flex
+        flex-direction: row
+        position: relative
+        background-color: #b40001
+        width: 50%
+        height: 44.8rem
+        overflow: hidden
+        margin-right: 1.5vh
+        padding: 4vh
+        .quadro-mensagem
+            margin-top: 1.0rem
+        .titulo-mensagem
+            font-family: 'Inter', sans-serif
+            background-color: transparent
+            position: absolute
+            color: #ffc37a
+            font-size: 4rem
+            font-weight: 700
+            margin-top: 1.0rem
+        .texto-mensagem
+            background-color: transparent
+            font-size: 1.3rem
+            margin-top: 12rem
+            color: white
+            position: absolute
+        .quadro-mensagem
+            background-color: transparent
+            display: flex
+            flex-direction: column
+            width: 50%
+            height: 100%
+        .imagem
+            background-color: transparent
+            position: relative
+            width: 50%            
+            align-content: end
+            padding-top: 13%
+            img
+                background-color: transparent
+
+                
+        .botao-enviar
+            border: 2px solid #bf7317
+            border-radius: 25px
+            padding: 1.2rem
+            margin-top: 25rem
+            color: #b40001
+            font-weight: 700
+            font-size: 1rem
+            background-color: #ffc37a
+            cursor: pointer
+            .icone-whats
+                background-color: transparent
+        .botao-enviar:hover
+            background-color: #edb672
+
+                
+
+    .espaco-banner-segundarios
+        width: 50%
+        height: 44.8rem
+        .primeiro
+            display: flex
+            margin-bottom: 1vh
+            padding: 3vh
+            background-color: #ffc37a
+        .bloco-um
+            margin-top: 2.5rem
+            background-color: transparent
+            width: 50%
+            .titulo-kids
+                margin: 0
+                font-size: 2.6rem
+                color: #b40001
+                font-weight: 700
+                background-color: transparent
+            .dois
+                padding-top: 0px
+                color: #ee7dd2
+                background-color: transparent
+            .texto-crianca
+                margin-left: 0px
+                font-size: 1rem
+                background-color: transparent
+
+            .botao-enviar
+                border: 2px solid #c01313
+                border-radius: 25px
+                padding: 1.2rem
+                margin-top: 5rem
+                color: white
+                font-size: 1rem
+                background-color: #b40001
+                cursor: pointer
+                .icone-whats
+                    background-color: transparent
+            .botao-enviar:hover
+                background-color: #02992d
+          
+        .bloco-dois
+            width: 50%
+            overflow: hidden
+            background-color: transparent
+            img
+                width: 80%
+                margin-top: 6vh
+                transform: scale(1.5)
+                background-color: transparent                
+        .banner-segundario
+            width: 100%
+            height: 50%
+        
+        .dois-roles
+            display: flex
+            background-color: #b40001
+            padding: 3vh
+            .bloco-dois-um
+                width: 50%
+                background-color: transparent
+                img
+                    width: 80%
+                    background-color: transparent
+            .bloco-dois-dois
+                width: 50%
+                height: 100%
+                background-color: transparent
+                text-align: end
+                .titulo-dois  
+                    background-color: transparent
+                    margin-top: 4rem
+                    font-size: 1.5rem
+                    color: #e7e7e7
+                    font-weight: 700
+                .mensagem-dois
+                    background-color: transparent
+                    font-size: 1rem
+                    color: white
+                .botao
+                    margin-left: 0px
+                    margin-top: 1rem
+                    padding: 1.5rem
+                    border-radius: 1.5rem
+                    font-size: 1rem
+                    cursor: pointer
+                    background-color: #ffc37a
+                    border: 2px solid #b40001
+                    color: #b40001
+                    font-weight: 700
+                    #icone
+                        background-color: transparent
+                        
+
+
+
+@media (max-width: 1700px)
+    img
+        width: 120%
+    .principal
+        .banner-maior
+            margin-top: 3rem
+            height: 40rem
+            padding-top: 0.5rem
+            .primeiro
+                font-size: 4rem
+            .dois
+                font-size: 4rem
+            .texto-mensagem
+                font-size: 1.5rem
+    .espaco-banner-segundarios
+        .bloco-dois
+            position: relative
+            align-content: end
+
+
+
+@media (max-width: 1500px)
+    img
+        width: 150%
+    .principal
+        flex-direction: column
+        .banner-maior
+            width: 100%
+            margin-top: 3rem
+            height: 40rem
+            padding-top: 0.5rem
+            .primeiro
+                font-size: 4rem
+            .dois
+                font-size: 4rem
+            .texto-mensagem
+                font-size: 1.4rem
+
+
+@media (max-width: 1499px)
+    img
+        width: 100%
+    .principal
+        height: 90rem
+        .banner-maior
+            width: 100%
+            height: 40rem
+            .quadro-mensagem
+                margin-top: 0.5rem
+            .primeiro
+                font-size: 4rem
+            .dois
+                font-size: 4rem
+            .texto-mensagem
+                font-size: 1.5rem
+            .botao-enviar
+                position: absolute
+        .espaco-banner-segundarios
+            width: 100%
+            margin-left: 0px
+            overflow: hidden
+            .dois-roles
+                .bloco-dois-um 
+                    align-content: end
+                    img
+                        width: 100%
+
+                
+@media (max-width: 700px)
+    .botao-kids
+    img
+        width: 150%
+    .principal
+        height: 70rem
+        .banner-maior
+            height: 25rem
+            .quadro-mensagem
+                margin-top: 0.5rem
+            .primeiro
+                font-size: 2.5rem
+            .dois
+                margin-top: 5.5rem
+                font-size: 2.5rem
+            .texto-mensagem
+                margin-top: 9rem
+                font-size: 0.8rem
+            .botao-enviar
+                margin-top: 15rem
+                position: absolute
+        .espaco-banner-segundarios
+            .primeiro
+                .bloco-um
+                    .botao-kids
+                        padding: 1rem
+            .dois-roles
+                background-color: #479fc8
+                .bloco-dois-um
+                    img
+                        width: 150%
+                    
