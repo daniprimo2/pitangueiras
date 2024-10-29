@@ -6,7 +6,7 @@ function Footer() {
   return (
     <footer className='footer'>
         <div className="footer-conteudo">
-            <p>&copy; {new Date().getFullYear()} Pitangueira cosmedicos.</p>
+            <p>&copy; {new Date().getFullYear()} Pitangueira Cosméticos.</p>
             <ul className='footer-links'>
                 <li><a href="/">Inicio</a></li>
                 <li><a href="/">Solicitar Kit</a></li>
