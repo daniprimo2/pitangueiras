@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import fotoFarmaceutica from '../logo/kit-removebg-preview.png'; 
-import fotoCrianca from '../logo/embalagem-produto-removebg-preview(1).png'; 
+import fotoCrianca from '../logo/mulher-consultora.png'; 
 import pirulas from '../logo/WhatsApp_Image_2024-10-21_at_17.34.55-removebg-preview.png'; 
 
 import './main.sass'
